@@ -5,7 +5,8 @@ import { addToPaste, updateToPaste } from '../redux/pasteSlice';
 
 const Home = () => {
 
-  // State for paste title and content
+  // State for paste title and content 
+  // kuch add bhi krr diya
   const [title, setTitle] = useState('');
   const [value, setValue] = useState('');
 
